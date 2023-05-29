@@ -33,6 +33,22 @@
         </div>
     </div>
 </div>
+<script>
+
+(function(){
+    var datos = function(){
+         var nombre = document.getElementById("nombre").value;
+         document.getElementById("nombre2").value = nombre
+         
+         var correo = document.getElementById("correo").value;
+         document.getElementById("correo2").value =correo;
+    }
+    var enviar = document.getElementById("enviar");
+    enviar.setAttribute("click", datos);
+}())
+
+  
+</script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
